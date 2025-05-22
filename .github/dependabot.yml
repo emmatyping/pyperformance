@@ -10,7 +10,7 @@ updates:
   # however, we can ignore all dependencies in the data-files
   # directory which is equivalent if a bit slower
   - package-ecosystem: "pip"
-    directories: ["/pyperformance/data-files/benchmarks/**/"]
+    directories: ["/pyperformance/data-files/benchmarks/*"]
     schedule:
       interval: "hourly"
     ignore:
